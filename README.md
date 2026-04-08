@@ -1,10 +1,14 @@
 🌱 Intelligent Carbon Footprint Tracker
 An intelligent web-based system designed to monitor, analyze, and manage carbon emissions generated from daily activities. The application uses a multi-factor calculation model to deliver accurate, adaptive, and personalized emission insights, promoting sustainable living.
 
+
 🚀 Overview
+
 This project transforms everyday user activities into meaningful environmental data. By combining multiple influencing factors and behavioral learning, the system provides a more realistic estimation of carbon footprint compared to traditional static calculators.
 
+
 ✨ Key Features
+
 📊 Activity-based carbon emission tracking
 
 🧮 Multi-factor emission calculation model
@@ -17,7 +21,9 @@ This project transforms everyday user activities into meaningful environmental d
 
 🤖 Adaptive learning system for personalized results
 
+
 🧠 Core Concept
+
 The system enhances traditional emission calculation by integrating multiple influencing factors:
 
 Dynamic Factor – adjusts emission based on activity type
@@ -41,7 +47,9 @@ Database: MySQL
 
 Visualization: Chart.js
 
+
 🗄️ System Architecture
+
 The system follows a structured workflow:
 
 User logs daily activity
@@ -54,7 +62,9 @@ Results are stored and analyzed
 
 Output is displayed through reports, charts, and insights
 
+
 📂 Database Design
+
 The application uses a relational database with the following core tables:
 
 users – User information
@@ -83,7 +93,10 @@ Import the database using phpMyAdmin
 Run the project in browser:
 
 http://localhost/your-project-folder
+
+
 🎯 Objective
+
 To develop a system that:
 
 Accurately calculates carbon emissions
@@ -94,7 +107,9 @@ Encourages environmentally responsible decisions
 
 Promotes awareness of sustainable living practices
 
+
 🌍 Applications
+
 Personal carbon tracking
 
 Educational and academic use
@@ -103,7 +118,9 @@ Environmental awareness programs
 
 Corporate sustainability monitoring
 
+
 🔮 Future Enhancements
+
 Mobile application integration
 
 AI-based emission prediction
@@ -114,8 +131,12 @@ Gamification and reward systems
 
 Smart city integration
 
+
 📌 Conclusion
+
 The Intelligent Carbon Footprint Tracker provides a scalable and adaptive solution for monitoring environmental impact. By combining data analysis with behavioral learning, the system bridges the gap between awareness and actionable sustainability.
 
+
 📜 License
+
 This project is developed for academic and educational purposes.
