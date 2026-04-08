@@ -1,36 +1,38 @@
-# Intelligent-Carbon-Tracker
 🌱 Intelligent Carbon Footprint Tracker
-An advanced web-based application that tracks daily user activities and calculates carbon emissions using a multi-factor intelligent model. The system provides personalized insights, reports, and sustainability recommendations to promote eco-friendly living.
+An intelligent web-based system designed to monitor, analyze, and manage carbon emissions generated from daily activities. The application uses a multi-factor calculation model to deliver accurate, adaptive, and personalized emission insights, promoting sustainable living.
 
-🚀 Features
-📊 Log daily activities (electricity, transport, appliances, etc.)
+🚀 Overview
+This project transforms everyday user activities into meaningful environmental data. By combining multiple influencing factors and behavioral learning, the system provides a more realistic estimation of carbon footprint compared to traditional static calculators.
 
-🧮 Multi-factor emission calculation:
+✨ Key Features
+📊 Activity-based carbon emission tracking
 
-Base Factor
+🧮 Multi-factor emission calculation model
 
-Dynamic Factor
+📈 Interactive dashboards and visual reports
 
-Efficiency Factor
+🎯 Monthly carbon goal setting and monitoring
 
-Time Factor
+🌳 Carbon offset estimation using tree equivalents
 
-Seasonal Factor
+🤖 Adaptive learning system for personalized results
 
-Learning Factor (adaptive)
+🧠 Core Concept
+The system enhances traditional emission calculation by integrating multiple influencing factors:
 
-📈 Interactive charts and reports
+Dynamic Factor – adjusts emission based on activity type
 
-🎯 Monthly goal setting and tracking
+Efficiency Factor – considers energy-efficient usage
 
-🌳 Carbon offset calculator (tree estimation)
+Time Factor – reflects duration or intensity of usage
 
-🤖 Personalized emission based on user behavior
+Seasonal Factor – accounts for environmental variations
 
-🧠 Unique Concept
-Unlike traditional carbon calculators, this system uses a learning-based approach that adapts to user habits over time, making emission results more accurate and realistic.
+Learning Factor – adapts based on user behavior patterns
 
-🛠️ Tech Stack
+This approach ensures improved accuracy, adaptability, and realism.
+
+🛠️ Technology Stack
 Frontend: HTML, CSS, JavaScript
 
 Backend: PHP
@@ -39,77 +41,81 @@ Database: MySQL
 
 Visualization: Chart.js
 
-🗄️ Database Structure
-users – user details
+🗄️ System Architecture
+The system follows a structured workflow:
 
-activities – activity categories & sub-activities
-
-daily_log – user activity logs
-
-emission_factors – base emission values
-
-emission_learning – adaptive learning data
-
-goals – user carbon targets
-
-monthly_emission – monthly summaries
-
-⚙️ How It Works
 User logs daily activity
 
-System fetches emission base value
+System retrieves activity and emission data
 
-Applies multiple factors:
+Multi-factor processing engine calculates emissions
 
-Emission = Quantity × Dynamic × Efficiency × Time × Seasonal × Learning
-Stores results in database
+Results are stored and analyzed
 
-Displays:
+Output is displayed through reports, charts, and insights
 
-Total emission
+📂 Database Design
+The application uses a relational database with the following core tables:
 
-Charts & reports
+users – User information
 
-Goal tracking
+activities – Activity categories and types
 
-Offset calculation
+daily_log – User activity records
 
-💻 Setup Instructions
-Install XAMPP / WAMP
+emission_factors – Base emission values
 
-Place project folder inside htdocs
+emission_learning – Adaptive learning data
 
-Start Apache and MySQL
+goals – User-defined emission targets
 
-Import database into phpMyAdmin
+monthly_emission – Monthly aggregated data
 
-Open browser:
+⚙️ Installation & Setup
+Install XAMPP / WAMP server
 
-http://localhost/your-folder-name
-🎯 Purpose
-To help users:
+Place the project folder inside htdocs
 
-Understand their carbon footprint
+Start Apache and MySQL services
 
-Make sustainable decisions
+Import the database using phpMyAdmin
 
-Reduce environmental impact through data-driven insights
+Run the project in browser:
 
-🌍 Future Scope
-📱 Mobile app integration
+http://localhost/your-project-folder
+🎯 Objective
+To develop a system that:
 
-🤖 AI-based predictions
+Accurately calculates carbon emissions
 
-🌐 IoT device connectivity
+Adapts to user behavior
 
-🏙 Smart city integration
+Encourages environmentally responsible decisions
 
-🏆 Gamification & rewards system
+Promotes awareness of sustainable living practices
 
-📌 Author
-Developed as part of DBMS Project
+🌍 Applications
+Personal carbon tracking
 
-Focused on sustainability and intelligent systems
+Educational and academic use
+
+Environmental awareness programs
+
+Corporate sustainability monitoring
+
+🔮 Future Enhancements
+Mobile application integration
+
+AI-based emission prediction
+
+IoT-enabled automatic data collection
+
+Gamification and reward systems
+
+Smart city integration
+
+📌 Conclusion
+The Intelligent Carbon Footprint Tracker provides a scalable and adaptive solution for monitoring environmental impact. By combining data analysis with behavioral learning, the system bridges the gap between awareness and actionable sustainability.
 
 📜 License
-This project is for educational purposes.
+This project is developed for academic and educational purposes.
